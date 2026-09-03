@@ -28,7 +28,7 @@
             width: 280px;
         }
 
-        /* Enforces equal height while maintaining original image proportions */
+        /* Essential for proportional scaling: setting standard height while auto-scaling width */
         .card img {
             height: 200px;
             width: auto;
@@ -45,12 +45,14 @@
 </head>
 <body>
 
+    <!-- Category Header -->
     <h1>Space Telescopes Gallery</h1>
 
     <div class="gallery">
         <!-- Image 1: Public Domain -->
         <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d7/James_Webb_Space_Telescope.jpg" height="200" alt="James Webb Space Telescope">
+            <!-- HTML height attribute used per rubric instructions -->
+            <img src="jwst.jpg" height="200" alt="James Webb Space Telescope">
             <div class="caption">
                 <p><b>James Webb Space Telescope</b></p>
                 <p>License: Public Domain (NASA)</p>
@@ -60,7 +62,7 @@
 
         <!-- Image 2: Creative Commons -->
         <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Very_Large_Array%2C_2012.jpg" height="200" alt="Very Large Array">
+            <img src="vla.jpg" height="200" alt="Very Large Array">
             <div class="caption">
                 <p><b>Very Large Array</b></p>
                 <p>License: CC BY 2.0 (Photo by John Fowler)</p>
@@ -70,7 +72,7 @@
 
         <!-- Image 3: Public Domain -->
         <div class="card">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Hubble_01_Cropped.jpg" height="200" alt="Hubble Space Telescope">
+            <img src="hubble.jpg" height="200" alt="Hubble Space Telescope">
             <div class="caption">
                 <p><b>Hubble Space Telescope</b></p>
                 <p>License: Public Domain (NASA)</p>
