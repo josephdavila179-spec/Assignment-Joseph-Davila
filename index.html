@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Space Telescopes Gallery</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            background: white;
+            width: 280px;
+        }
+
+        /* Makes images equal height without stretching */
+        .card img {
+            height: 200px;
+            width: auto;
+        }
+
+        .caption {
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Space Telescopes Gallery</h1>
+
+    <div class="gallery">
+        <!-- Image 1: Public Domain -->
+        <div class="card">
+            <img src="image1.jpg" height="200" alt="James Webb Space Telescope">
+            <div class="caption">
+                <p><b>James Webb Space Telescope</b></p>
+                <p>License: Public Domain (NASA)</p>
+                <p><a href="PASTE_URL_HERE">Original Source</a></p>
+            </div>
+        </div>
+
+        <!-- Image 2: Creative Commons -->
+        <div class="card">
+            <img src="image2.jpg" height="200" alt="Hubble Telescope">
+            <div class="caption">
+                <p><b>Hubble Space Telescope</b></p>
+                <p>License: CC BY 2.0 (Photo by AuthorName)</p>
+                <p><a href="PASTE_URL_HERE">Original Source</a></p>
+            </div>
+        </div>
+
+        <!-- Image 3: Creative Commons or Public Domain -->
+        <div class="card">
+            <img src="image3.jpg" height="200" alt="Very Large Array">
+            <div class="caption">
+                <p><b>Very Large Array</b></p>
+                <p>License: CC BY-SA 4.0 (Photo by AuthorName)</p>
+                <p><a href="PASTE_URL_HERE">Original Source</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
